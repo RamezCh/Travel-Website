@@ -38,10 +38,18 @@ body {
 
 /* Large Screen */
 @media (min-width: 1200px) {
-  container {
+  .container {
     width: 1170px;
   }
 }
+
+/* Extra Large Screen */
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+
 /* End Global Rules */
 
 /* Start Header */
@@ -122,8 +130,8 @@ header nav details ul li:not(:last-child) a {
 
 .landing .intro-text {
   position: absolute;
-  left: 50%;
-  top: 35%;
+  left: 45%;
+  top: 36%;
   transform: translate(-35%, -50%);
 }
 
