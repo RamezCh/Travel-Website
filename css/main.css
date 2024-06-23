@@ -87,6 +87,7 @@ header nav details ul {
   right: 24vw;
   top: 8vh;
   width: 150px;
+  z-index: 10;
 }
 
 header nav details[open] ul {
@@ -122,7 +123,7 @@ header nav details ul li:not(:last-child) a {
 .landing .intro-text {
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 35%;
   transform: translate(-35%, -50%);
 }
 
