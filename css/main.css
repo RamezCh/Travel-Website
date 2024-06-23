@@ -60,6 +60,7 @@ header .links {
 header nav details summary {
   list-style: none;
   font-size: 20px;
+  cursor: pointer;
 }
 
 header nav details ul {
@@ -67,9 +68,14 @@ header nav details ul {
   padding: 10px;
   margin: 0;
   position: absolute;
+  display: none;
   right: 24vw;
   top: 8vh;
   width: 150px;
+}
+
+header nav details[open] ul {
+  display: block;
 }
 
 header nav details ul li a {
