@@ -1,3 +1,9 @@
+/* Start Variables */
+:root {
+  --main-color: #10cab7;
+}
+/* End Variables */
+
 /* Start Global Rules */
 * {
   -webkit-box-sizing: border-box;
@@ -103,3 +109,25 @@ header nav details ul li:not(:last-child) a {
   border-bottom: 1px solid #ddd;
 }
 /* End Header */
+
+/* Start Landing */
+.landing {
+  position: relative;
+  background-image: url("../images/background-img.jpg");
+  background-size: cover;
+  height: calc(100vh - 80px);
+  width: 100%;
+}
+
+.landing .intro-text {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-35%, -50%);
+}
+
+.landing .intro-text h1 {
+  margin: 0;
+  color: var(--main-color);
+}
+/* End Landing */
