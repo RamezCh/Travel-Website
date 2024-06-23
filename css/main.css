@@ -8,7 +8,6 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-/* End Global Rules */
 
 .container {
   margin-right: auto;
@@ -37,3 +36,43 @@ body {
     width: 1170px;
   }
 }
+/* End Global Rules */
+
+/* Start Header */
+header {
+  padding: 20px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 100px;
+}
+
+header .links {
+  position: relative;
+}
+
+header nav details summary {
+  list-style: none;
+  font-size: 20px;
+}
+
+header nav details ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  right: 24vw;
+  top: 8vh;
+  width: 150px;
+}
+
+header nav details ul li a {
+  text-decoration: none;
+}
+/* End Header */
