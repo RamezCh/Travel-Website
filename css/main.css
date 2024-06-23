@@ -128,6 +128,13 @@ header nav details ul li:not(:last-child) a {
 
 .landing .intro-text h1 {
   margin: 0;
+  font-weight: bold;
+  font-size: 50px;
   color: var(--main-color);
+}
+
+.landing .intro-text p {
+  font-size: 20px;
+  line-height: 1.8;
 }
 /* End Landing */
