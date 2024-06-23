@@ -9,3 +9,15 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 /* End Global Rules */
+
+/* Small Screen */
+@media (min-width: 768px) {
+}
+
+/* Medium Screen */
+@media (min-width: 992px) {
+}
+
+/* Large Screen */
+@media (min-width: 1200px) {
+}
