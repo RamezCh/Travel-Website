@@ -98,4 +98,8 @@ header nav details ul li a {
 header nav details ul li a:hover {
   padding-left: 25px;
 }
+
+header nav details ul li:not(:last-child) a {
+  border-bottom: 1px solid #ddd;
+}
 /* End Header */
