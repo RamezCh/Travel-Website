@@ -63,6 +63,15 @@ header nav details summary {
   cursor: pointer;
 }
 
+header nav details ul::before {
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #f6f6f6 transparent;
+  position: absolute;
+  right: 5px;
+  top: -20px;
+}
+
 header nav details ul {
   list-style-type: none;
   padding: 10px;
@@ -80,5 +89,13 @@ header nav details[open] ul {
 
 header nav details ul li a {
   text-decoration: none;
+  display: block;
+  padding: 15px;
+  color: #333;
+  transition: 0.3s;
+}
+
+header nav details ul li a:hover {
+  padding-left: 25px;
 }
 /* End Header */
