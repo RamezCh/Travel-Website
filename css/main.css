@@ -41,6 +41,10 @@ body {
   .container {
     width: 1170px;
   }
+  header nav details ul {
+    right: 24vw;
+    top: 8vh;
+  }
 }
 
 /* Extra Large Screen */
@@ -92,7 +96,7 @@ header nav details ul {
   margin: 0;
   position: absolute;
   display: none;
-  right: 24vw;
+  right: 15vw;
   top: 8vh;
   width: 150px;
   z-index: 10;
@@ -107,6 +111,7 @@ header nav details ul li a {
   display: block;
   padding: 15px;
   color: #333;
+  background-color: #f6f6f6;
   transition: 0.3s;
 }
 
