@@ -5,7 +5,8 @@
   --text-color: #333;
   --special-heading-color: #ebeced;
   --special-heading-paragraph-color: #797979;
-  --bg-color: rgba(255, 255, 255, 0.8);
+  --bg-color: #f6f6f6;
+  --section-padding: 60px;
 }
 /* End Variables */
 
@@ -116,7 +117,7 @@ header nav details ul {
   display: none;
   right: 8.9vw;
   top: 8vh;
-  width: 160px;
+  width: 1var (--section-padding);
   z-index: 10;
 }
 
@@ -161,7 +162,7 @@ header nav details ul li:not(:last-child) a {
 }
 
 .landing .intro-text {
-  background-color: var(--bg-color);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
   max-width: 750px;
@@ -184,8 +185,8 @@ header nav details ul li:not(:last-child) a {
 
 /* Start Features */
 .features {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
   background-color: var(--bg-color);
   display: flex;
   justify-content: center;
@@ -253,7 +254,7 @@ header nav details ul li:not(:last-child) a {
 
 @media (max-width: 768px) {
   .special-heading {
-    font-size: 60px;
+    font-size: var(--section-padding);
   }
   .special-heading + p {
     margin-top: -20px;
@@ -262,8 +263,8 @@ header nav details ul li:not(:last-child) a {
 /* End Special Heading */
 /* Start Services */
 .services {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .services .services-content {
@@ -313,7 +314,7 @@ header nav details ul li:not(:last-child) a {
   color: var(--main-color);
   font-size: 2.5rem;
   margin-right: 20px;
-  flex-basis: 60px;
+  flex-basis: var(--section-padding);
 }
 
 .services .services-content .srv text {
@@ -358,4 +359,9 @@ header nav details ul li:not(:last-child) a {
 /* End Services */
 
 /* Start Destinations */
+#destinations {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: var(--bg-color);
+}
 /* End Destinations */
