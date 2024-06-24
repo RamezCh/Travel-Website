@@ -55,6 +55,10 @@ body {
   .container {
     width: 1370px;
   }
+  header nav details ul {
+    right: 15vw;
+    top: 8vh;
+  }
 }
 
 /* Extra Extra Large Screen */
@@ -107,9 +111,9 @@ header nav details ul {
   margin: 0;
   position: absolute;
   display: none;
-  right: 15vw;
+  right: 8.9vw;
   top: 8vh;
-  width: 150px;
+  width: 160px;
   z-index: 10;
 }
 
@@ -127,12 +131,16 @@ header nav details ul li a {
 }
 
 header nav details ul li a:hover {
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 5px;
   padding-left: 25px;
 }
 
 header nav details ul li:not(:last-child) a {
   border-bottom: 1px solid #ddd;
 }
+
 /* End Header */
 
 /* Start Landing */
@@ -153,7 +161,8 @@ header nav details ul li:not(:last-child) a {
   background-color: var(--bg-color);
   padding: 20px;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 750px;
+  margin-top: -190px;
 }
 
 .landing .intro-text h1 {
