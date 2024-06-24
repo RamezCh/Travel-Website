@@ -210,6 +210,13 @@ nav svg {
   margin-top: -190px;
 }
 
+@media (max-width: 389px) {
+  .landing .intro-text {
+    max-width: 379px;
+    margin-top: 20px;
+  }
+}
+
 .landing .intro-text h1 {
   margin: 0 0 20px 0;
   font-weight: 900;
