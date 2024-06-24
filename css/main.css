@@ -560,3 +560,18 @@ header nav details ul li:not(:last-child) a {
   }
 }
 /* End Contact Section */
+
+/* Start Footer */
+footer {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+footer span {
+  font-weight: bold;
+  color: var(--main-color);
+}
+/* End Footer */
