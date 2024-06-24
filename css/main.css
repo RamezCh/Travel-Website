@@ -249,4 +249,19 @@ header nav details ul li:not(:last-child) a {
   text-align: center;
   color: var(--special-heading-paragraph-color);
 }
+
+@media (max-width: 768px) {
+  .special-heading {
+    font-size: 60px;
+  }
+  .special-heading + p {
+    margin-top: -20px;
+  }
+}
 /* End Special Heading */
+/* Start Services */
+.services {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* End Services */
