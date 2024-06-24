@@ -371,4 +371,26 @@ header nav details ul li:not(:last-child) a {
   grid-gap: 30px;
   margin-top: 80px;
 }
+
+#destinations .destinations-content .card {
+  background-color: white;
+}
+
+#destinations .destinations-content .card img {
+  background-color: white;
+  max-width: 100%;
+}
+
+#destinations .destinations-content .card .info {
+  padding: 20px;
+}
+
+#destinations .destinations-content .card .info h3 {
+  margin: 0;
+}
+
+#destinations .destinations-content .card .info p {
+  color: var(--text-color);
+  line-height: 1.8;
+}
 /* End Destinations */
