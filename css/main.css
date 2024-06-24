@@ -440,4 +440,25 @@ header nav details ul li:not(:last-child) a {
   top: -40px;
   z-index: -1;
 }
+
+#about .about-content .text {
+  flex-basis: calc(100% - 500px);
+}
+
+#about .about-content .text p:first-of-type {
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+#about .about-content .text p:last-of-type {
+  line-height: 2;
+  color: var(--text-color);
+}
+
+#about .about-content .text hr {
+  width: 50%;
+  display: inline-block;
+  border-color: var(--main-color);
+}
 /* End About Section */
