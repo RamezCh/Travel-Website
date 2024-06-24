@@ -175,5 +175,58 @@ header nav details ul li:not(:last-child) a {
 .landing .intro-text p {
   font-size: 1.25rem;
   line-height: 1.8;
+  text-align: left;
 }
 /* End Landing */
+
+/* Start Features */
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  max-width: 1200px; /* Add a max-width to limit the container width */
+  width: 100%;
+}
+
+.features .feat {
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.features .feat:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.features .feat i {
+  color: var(--main-color);
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.features .feat h3 {
+  font-weight: 800;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.features .feat p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  text-align: left;
+}
+/* End Features */
