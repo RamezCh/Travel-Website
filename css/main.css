@@ -364,4 +364,11 @@ header nav details ul li:not(:last-child) a {
   padding-bottom: var(--section-padding);
   background-color: var(--bg-color);
 }
+
+#destinations .destinations-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  margin-top: 80px;
+}
 /* End Destinations */
