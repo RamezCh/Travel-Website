@@ -264,4 +264,81 @@ header nav details ul li:not(:last-child) a {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.services .services-content {
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "srv1 srv2 img" "srv3 srv4 img";
+  grid-gap: 40px;
+  max-width: 1400px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.services .services-content .srv {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.services .services-content .srv1 {
+  grid-area: srv1;
+}
+
+.services .services-content .srv2 {
+  grid-area: srv2;
+}
+
+.services .services-content .srv3 {
+  grid-area: srv3;
+}
+
+.services .services-content .srv4 {
+  grid-area: srv4;
+}
+
+.services .services-content .col {
+  grid-area: img;
+}
+
+@media (max-width: 768px) {
+  .services .services-content .srv {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.services .services-content .srv i {
+  color: var(--main-color);
+  font-size: 2.5rem;
+  margin-right: 20px;
+  flex-basis: 60px;
+}
+
+.services .services-content .srv text {
+  flex: 1;
+}
+
+.services .services-content .srv h3 {
+  margin: 0 0 20px;
+}
+
+.services .services-content .srv p {
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.services .services-content .col .image {
+  text-align: center;
+  position: relative;
+}
+
+.services .services-content .col .image::before {
+  content: "";
+}
+
+.services .services-content .col .image img {
+  width: 400px;
+}
 /* End Services */
